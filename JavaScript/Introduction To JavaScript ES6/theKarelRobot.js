@@ -1,12 +1,13 @@
 function main(){
-   move();
-   move();
-   move();
-   move();
+   moveFourTimes();
    turnLeft();
-   move();
-   move();
-   move();
-   move();
+   moveFourTimes();
    turnRight();
+}
+
+function moveFourTimes(){
+   move();
+   move();
+   move();
+   move();
 }
